@@ -5,3 +5,53 @@ body{
     background-color: coral;
     margin-left: 35px;
     margin-right: 35px;}
+
+/* NAVBAR */
+.bg-teal {
+  background-color:aqua;
+}
+.nav-btn {
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50rem;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.nav-btn:hover,
+.nav-btn.active {
+  background-color: #fff;
+  color: aqua;
+}
+
+
+/* GOOGLE FONT */
+.bbh-bogle-regular {
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply the font to all headers site-wide */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+}
+
+
+/* SOURCE CODE PRO */
+.source-code-pro-regular {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply the font to all paragraph text site-wide */
+p {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
